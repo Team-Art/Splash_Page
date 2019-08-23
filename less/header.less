@@ -39,11 +39,24 @@
     width: 100%;
     @media @mobile {
       .flex(column, center, center, center);
+      a{
+        &:nth-child(3){
+          order: 2;
+        }
+        &:nth-child(4){
+          order: 1;
+        }
+      }
     }
   }
 }
+
 @media @mobile{
- .home-link, .browse{
-  display: none;
-}
+   .home-link, .browse{
+    display: none;
+  }
+
+  .sign-in{
+    background-color:@mobile-color;
+  }
 }
