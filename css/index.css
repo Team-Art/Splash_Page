@@ -151,6 +151,11 @@ p {
   width: 100%;
   height: 89px;
 }
+@media (max-width: 500px) {
+  .header-container {
+    height: auto;
+  }
+}
 .header-container h1 {
   width: 55%;
 }
@@ -173,7 +178,7 @@ p {
 @media (max-width: 500px) {
   .header-container h1 {
     width: 100%;
-    text-align: center;
+    padding: 5% 0 8% 3%;
   }
 }
 .header-container nav {
@@ -189,9 +194,17 @@ p {
   }
   .header-container nav a:nth-child(3) {
     order: 2;
+    width: 100%;
+    color: white;
+    padding: 2% 0;
+    margin-bottom: 2%;
+    text-align: center;
   }
   .header-container nav a:nth-child(4) {
     order: 1;
+    font-size: 2rem;
+    margin: 3%;
+    padding: 2% 5%;
   }
 }
 @media (max-width: 500px) {
