@@ -194,6 +194,9 @@ footer,
   color: #FFFFFF;
   font-size: 1.7rem;
 }
+.footer-container .ft-links-top ul li a:hover {
+  color: #DBA5F5;
+}
 .ft-links-btm li {
   margin: 1% 4%;
   color: #FFFFFF;
@@ -204,6 +207,9 @@ footer,
   color: #FFFFFF;
   font-size: 1.2rem;
   padding: 0 5%;
+}
+.ft-links-btm li a:hover {
+  color: #DBA5F5;
 }
 .home {
   width: 100%;
