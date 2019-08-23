@@ -154,6 +154,7 @@ p {
 @media (max-width: 500px) {
   .header-container {
     height: auto;
+    margin-bottom: 8%;
   }
 }
 .header-container h1 {
@@ -179,6 +180,7 @@ p {
   .header-container h1 {
     width: 100%;
     padding: 5% 0 8% 3%;
+    font-size: 3.8rem;
   }
 }
 .header-container nav {
