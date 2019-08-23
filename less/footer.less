@@ -27,10 +27,17 @@ footer, .footer-container{
 }
 
 .ft-links-btm{
+    ul{
+      @media @mobile{
+        width: 100%;
+      }
+    }
      li{
         margin: 1% 4%;
         color: @ft-font-color;
-        width:35%;
+        @media @mobile{
+          margin: 4% 0;
+        }
         a{
           text-decoration: none;
           color: @ft-font-color;
@@ -41,4 +48,13 @@ footer, .footer-container{
           }
         }
       }
+}
+
+.btm-links{
+  width: 35%;
+  text-align: center;
+  @media @mobile{
+      width: 32.5%;
+      text-align: center;
+  }
 }
