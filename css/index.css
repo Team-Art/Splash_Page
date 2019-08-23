@@ -183,13 +183,24 @@ footer,
   width: 95%;
 }
 .footer-container .ft-links-top ul li {
-  padding: 4% 1%;
+  margin: 4% 1%;
   color: #FFFFFF;
 }
 .footer-container .ft-links-top ul li a {
   text-decoration: none;
   color: #FFFFFF;
   font-size: 1.7rem;
+}
+.ft-links-btm li {
+  margin: 1% 4%;
+  color: #FFFFFF;
+  width: 35%;
+}
+.ft-links-btm li a {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 1.2rem;
+  padding: 0 5%;
 }
 .home {
   width: 100%;
