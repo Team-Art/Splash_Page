@@ -122,10 +122,88 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+html {
+  font-size: 62.5%;
+}
+h1 {
+  font-family: 'Ovo', serif;
+  font-size: 3.2rem;
+  color: #7900F2;
+}
+a {
+  font-family: 'Roboto', sans-serif;
+}
+p {
+  font-size: 1.6rem;
+}
 .container {
   max-width: 1480px;
   width: 100%;
   margin: 0 auto;
+}
+.header-container {
+  background-color: #F8F8F8;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+  height: 89px;
+}
+.header-container h1 {
+  width: 55%;
+}
+.header-container nav {
+  width: 40%;
+}
+.header-container nav a {
+  padding: 0 5%;
+  text-decoration: none;
+  color: #1A051D;
+  font-size: 1.8rem;
+}
+.header-container nav a:hover {
+  color: #DBA5F5;
+}
+.header-container nav .sign-up {
+  border: 3px solid #B66CFF;
+  border-radius: 4px;
+}
+footer,
+.footer-container {
+  width: 100%;
+}
+.footer-container {
+  background: linear-gradient(185.95deg, #3F3356 3.26%, #1A051D 100%);
+}
+.footer-container ul {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 95%;
+}
+.footer-container .ft-links-top ul li {
+  margin: 4% 1%;
+  color: #FFFFFF;
+}
+.footer-container .ft-links-top ul li a {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 1.7rem;
+}
+.ft-links-btm li {
+  margin: 1% 4%;
+  color: #FFFFFF;
+  width: 35%;
+}
+.ft-links-btm li a {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 1.2rem;
+  padding: 0 5%;
 }
 .home {
   width: 100%;
