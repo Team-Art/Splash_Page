@@ -133,6 +133,9 @@ h1 {
 a {
   font-family: 'Roboto', sans-serif;
 }
+p {
+  font-size: 1.6rem;
+}
 .container {
   max-width: 1480px;
   width: 100%;
