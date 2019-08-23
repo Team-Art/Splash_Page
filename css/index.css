@@ -167,6 +167,30 @@ a {
   border: 3px solid #B66CFF;
   border-radius: 4px;
 }
+footer,
+.footer-container {
+  width: 100%;
+}
+.footer-container {
+  background: linear-gradient(185.95deg, #3F3356 3.26%, #1A051D 100%);
+}
+.footer-container ul {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 95%;
+}
+.footer-container .ft-links-top ul li {
+  padding: 4% 1%;
+  color: #FFFFFF;
+}
+.footer-container .ft-links-top ul li a {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 1.7rem;
+}
 .home {
   width: 100%;
 }
