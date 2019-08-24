@@ -1,3 +1,23 @@
+.logo-container{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 55%;
+    @media @mobile{
+      width: 100%;
+      justify-content: center;
+    }
+    .logo{
+      margin: 0 2%;
+      img{
+        @media @mobile{
+          width: 50px;
+        }
+      }
+    }
+}
+
+
 .header-container{
   background-color: @header;
   .flex(row wrap, center, center, center);
@@ -12,16 +32,16 @@
   }
 
   h1{
-    width: 55%;
       @media @tablet{
       width: 100%;
       text-align: center;
       margin-bottom: 2%;
     }
     @media @mobile{
-      width: 100%;
+      display: none;
+      /*width: 100%;
       padding: 5% 0 8% 3%;
-      font-size: 3.8rem;
+      font-size: 3.8rem;*/
     }
   }
 
@@ -75,6 +95,7 @@
     }
   }
 }
+
 
 @media @mobile{
    .home-link, .browse{
