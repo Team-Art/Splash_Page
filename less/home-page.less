@@ -1,5 +1,8 @@
 .home {
     width: 100%;
+    @media @mobile {
+        margin-bottom: 10%;
+    }
 
     header{
         margin-left: 9%;
@@ -16,10 +19,15 @@
         .img-content {
          padding: 1%;
          padding-bottom: 4%;
-       
+
             img {
                 width: 294px;
                 height: 209px;
+
+                @media @mobile {
+                    width: 380px;
+                    height: 250px;
+                }
             }
             p{
                 text-align: center;
