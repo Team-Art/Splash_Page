@@ -1,3 +1,7 @@
+.link-border {
+  border: 3px solid #B66CFF;
+  border-radius: 4px;
+}
 html,
 body,
 div,
@@ -125,13 +129,19 @@ table {
 html {
   font-size: 62.5%;
 }
+h2,
+p,
+a {
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
 h1 {
-  font-family: 'Ovo', serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 3.2rem;
   color: #7900F2;
 }
-a {
-  font-family: 'Roboto', sans-serif;
+h2 {
+  font-size: 2rem;
+  margin: 3% 0 3% 9%;
 }
 p {
   font-size: 1.6rem;
@@ -140,6 +150,47 @@ p {
   max-width: 1480px;
   width: 100%;
   margin: 0 auto;
+}
+.logo-container {
+  display: flex;
+  flex-flow: row;
+  justify-content: left;
+  align-items: center;
+  align-content: center;
+  width: 55%;
+}
+@media (max-width: 500px) {
+  .logo-container {
+    width: 100%;
+    justify-content: center;
+  }
+}
+@media (max-width: 762px) {
+  .logo-container {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+}
+.logo-container .logo {
+  margin: 0 2%;
+}
+@media (max-width: 762px) {
+  .logo-container .logo {
+    margin: 2% 2% 4%;
+  }
+}
+@media (max-width: 500px) {
+  .logo-container .logo img {
+    width: 50px;
+  }
+}
+@media (max-width: 762px) {
+  .logo-container .logo img {
+    width: 30px;
+  }
 }
 .header-container {
   background-color: #F8F8F8;
@@ -151,14 +202,37 @@ p {
   width: 100%;
   height: 89px;
 }
-.header-container h1 {
-  width: 55%;
+@media (max-width: 762px) {
+  .header-container {
+    height: 120px;
+  }
+}
+@media (max-width: 500px) {
+  .header-container {
+    height: auto;
+    margin-bottom: 8%;
+  }
+}
+@media (max-width: 762px) {
+  .header-container h1 {
+    text-align: center;
+    margin-bottom: 2%;
+  }
+}
+@media (max-width: 500px) {
+  .header-container h1 {
+    display: none;
+    /*width: 100%;
+      padding: 5% 0 8% 3%;
+      font-size: 3.8rem;*/
+  }
 }
 .header-container nav {
   width: 40%;
+  text-align: right;
 }
 .header-container nav a {
-  padding: 0 5%;
+  padding: 0 3%;
   text-decoration: none;
   color: #1A051D;
   font-size: 1.8rem;
@@ -169,6 +243,45 @@ p {
 .header-container nav .sign-up {
   border: 3px solid #B66CFF;
   border-radius: 4px;
+}
+@media (max-width: 762px) {
+  .header-container nav {
+    width: 100%;
+    text-align: center;
+  }
+}
+@media (max-width: 500px) {
+  .header-container nav {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+  .header-container nav a:nth-child(3) {
+    order: 2;
+    width: 100%;
+    color: white;
+    padding: 2% 0;
+    margin-bottom: 2%;
+    text-align: center;
+  }
+  .header-container nav a:nth-child(4) {
+    order: 1;
+    font-size: 2rem;
+    margin: 3%;
+    padding: 2% 5%;
+  }
+}
+@media (max-width: 500px) {
+  .home-link,
+  .browse {
+    display: none;
+  }
+  .sign-in {
+    background-color: #B66CFF;
+  }
 }
 footer,
 .footer-container {
@@ -194,16 +307,41 @@ footer,
   color: #FFFFFF;
   font-size: 1.7rem;
 }
+.footer-container .ft-links-top ul li a:hover {
+  color: #DBA5F5;
+}
+@media (max-width: 500px) {
+  .ft-links-btm ul {
+    width: 100%;
+  }
+}
 .ft-links-btm li {
   margin: 1% 4%;
   color: #FFFFFF;
-  width: 35%;
+}
+@media (max-width: 500px) {
+  .ft-links-btm li {
+    margin: 4% 0;
+  }
 }
 .ft-links-btm li a {
   text-decoration: none;
   color: #FFFFFF;
   font-size: 1.2rem;
   padding: 0 5%;
+}
+.ft-links-btm li a:hover {
+  color: #DBA5F5;
+}
+.btm-links {
+  width: 35%;
+  text-align: center;
+}
+@media (max-width: 500px) {
+  .btm-links {
+    width: 32.5%;
+    text-align: center;
+  }
 }
 .home {
   width: 100%;
@@ -233,10 +371,34 @@ footer,
   font-family: Arial, Helvetica, sans-serif;
   margin-top: 5px;
 }
-.home .bottom-text {
-  font-family: Arial, Helvetica, sans-serif;
-  float: right;
-  margin-right: 9%;
+.main-link {
+  width: 100%;
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-end;
+  align-items: center;
+  align-content: center;
+}
+@media (max-width: 762px) {
+  .main-link {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+}
+.main-link a {
+  border: 3px solid #B66CFF;
+  border-radius: 4px;
+  margin: 2% 9%;
+  padding: 1% 2%;
+  text-decoration: none;
+  color: #1A051D;
+  font-size: 1.8rem;
+}
+.main-link a:hover {
+  color: #DBA5F5;
 }
 .nav-class {
   margin-bottom: 5%;

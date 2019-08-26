@@ -3,17 +3,22 @@
 <html>
  <head>
     <title>Art-Portfolio</title>
-
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:800,900&display=swap" rel="stylesheet">
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
         <link rel="stylesheet" href="css/index.css" />
  </head>
     <body>
       <header>
         <div class='header-container'>
-          <h1>Art Portfolio</h1>
+          <div class="logo-container">
+            <figure class="logo">
+              <img src="./img/small-logo.png" alt="logo">
+            </figure>
+            <h1>Art Portfolio</h1>
+          </div>
           <nav>
-            <a href="#">Browse</a>
-            <a href="#">Home</a>
+            <a href="#" class="browse">Browse</a>
+            <a href="#" class="home-link">Home</a>
             <a href="#" class="sign-in">Sign In</a>
             <a href="#" class="sign-up">Sign Up</a>
           </nav>
@@ -21,7 +26,7 @@
       </header>
 
         <div class="container home">
-            <header>Featured Artist</header>
+            <h2>Featured Artist</h2>
             <section class="main-container">
                 <div class="img-content">
                     <img src="img/Quang Nguyen Vinh.jpeg"></img>
@@ -48,25 +53,27 @@
                     <p>Thibault Trillet</p>
                 </div>
             </section>
-            <p class="bottom-text">Explore More</p>
+            <div class="main-link">
+              <a href="#">Explore More</a>
+            </div>
         </div>
 
       <footer>
         <div class='footer-container'>
           <section class="ft-links-top">
             <ul>
-              <li><a href="#">Browse</a></li>
+              <li class="browse"><a href="#">Browse</a></li>
               <li><a href="#">Support</a></li>
               <li><a href="#">Contact Us</a></li>
             </ul>
           </section>
           <section class= 'ft-links-btm'>
             <ul>
-              <li><a href="#">&copy 2019. Art Station</a></li>
-              <li>|</li>
-              <li><a href="#">Terms of Service</a></li>
-              <li>|</li>
-              <li><a href="#">Privacy Policy</a></li>
+              <li class="btm-links"><a href="#">&copy 2019. Art Station</a></li>
+              <li class="separate">|</li>
+              <li class="btm-links"><a href="#">Terms of Service</a></li>
+              <li class="separate">|</li>
+              <li class="btm-links"><a href="#">Privacy Policy</a></li>
             </ul>
           </section>
         </div>
