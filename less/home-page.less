@@ -28,13 +28,28 @@
             }
         }
     }
-    .bottom-text{
-        font-family: Arial, Helvetica, sans-serif;
-        float: right;
-        margin-right: 9%;
-    }
+}
 
-};
+.main-link{
+    width: 100%;
+    .flex(row, flex-end, center, center);
+    @media @tablet{
+        .flex(row, center, center, center);
+    }
+    a{
+        .link-border();
+        margin: 2% 9%;
+        padding: 1% 2%;
+        text-decoration: none;
+        color: @main-color;
+        font-size: 1.8rem;
+        &:hover{
+          color: @hover;
+        }
+      }
+}
+
+
 
 
 
