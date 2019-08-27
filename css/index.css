@@ -38,8 +38,8 @@
 }
 @media (max-width: 500px) {
   .home .main-container .img-content img {
-    width: 380px;
-    height: 250px;
+    width: 100%;
+    height: 230px;
   }
 }
 .home .main-container .img-content p {
