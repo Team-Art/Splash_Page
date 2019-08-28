@@ -70,22 +70,3 @@
     margin-left: 36%;
   }
 }
-.nav-class {
-  margin-bottom: 5%;
-  border-bottom: 2px dashed grey;
-  padding-bottom: 3%;
-}
-.footer-content {
-  border-top: 2px dashed grey;
-  margin-top: 5%;
-}
-.footer-content .content-one {
-  display: flex;
-  justify-content: space-between;
-  width: 75%;
-}
-.footer-content .content-two {
-  display: flex;
-  justify-content: space-between;
-  width: 75%;
-}
