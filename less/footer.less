@@ -1,0 +1,60 @@
+footer, .footer-container{
+  width: 100%;
+}
+
+.footer-container{
+  background:@footer;
+    ul{
+      .flex(row, center, center, center);
+      width: 95%;
+      }
+  .ft-links-top{
+      ul{
+        li{
+        margin: 4% 1%;
+        color: @ft-font-color;
+        a{
+          text-decoration: none;
+          color: @ft-font-color;
+          font-size: 1.7rem;
+          &:hover{
+            color: @hover;
+          }
+        }
+      }
+    }
+  }
+}
+
+.ft-links-btm{
+    ul{
+      @media @mobile{
+        width: 100%;
+      }
+    }
+     li{
+        margin: 1% 4%;
+        color: @ft-font-color;
+        @media @mobile{
+          margin: 4% 0;
+        }
+        a{
+          text-decoration: none;
+          color: @ft-font-color;
+          font-size: 1.2rem;
+          padding: 0 5%;
+          &:hover{
+            color: @hover;
+          }
+        }
+      }
+}
+
+.btm-links{
+  width: 35%;
+  text-align: center;
+  @media @mobile{
+      width: 32.5%;
+      text-align: center;
+  }
+}
