@@ -20,7 +20,7 @@
       display: none;
     }
   }
-
+}
   .logo-container{
     .flex(row, left, center, center);
       width: 55%;
@@ -50,6 +50,7 @@
   nav{
     width: 40%;
     text-align: right;
+
     @media @tablet{
       width: 100%;
       text-align: center;
@@ -63,23 +64,29 @@
       padding: 0 3%;
       text-decoration: none;
       color: @main-color;
-      font-size: 1.8rem;
       &:hover{
         color: @hover;
       }
-      &:nth-child(3){
-        order: 2;
-        width: 100%;
-        color: white;
-        padding: 2% 0;
-        margin-bottom: 2%;
-        text-align: center;
+      
+      @media @tablet {
+        font-size: 1.8rem;
       }
-      &:nth-child(4){
-        order: 1;
-        font-size: 2rem;
-        margin: 3%;
-        padding: 2% 5%;
+
+      @media @mobile{
+
+        &:nth-child(3){
+          order: 2;
+          width: 100%;
+          padding: 2% 0;
+          margin-bottom: 2%;
+          text-align: center;
+        }
+        &:nth-child(4){
+          order: 1;
+          font-size: 2rem;
+          margin: 3%;
+          padding: 2% 5%;
+        }
       }
     }
 
@@ -87,7 +94,6 @@
        .link-border();
       }
     }
-}
 
 @media @mobile{
    .home-link, .browse{
