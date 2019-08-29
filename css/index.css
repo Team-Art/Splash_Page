@@ -132,7 +132,7 @@ html {
 h2,
 p,
 a {
-  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 h1 {
   font-family: 'Montserrat', sans-serif;
@@ -146,10 +146,45 @@ h2 {
 p {
   font-size: 1.6rem;
 }
+a {
+  font-size: 1.5rem;
+}
 .container {
   max-width: 1480px;
   width: 100%;
   margin: 0 auto;
+}
+.header-container {
+  background-color: #F8F8F8;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+  height: 89px;
+}
+@media (max-width: 768px) {
+  .header-container {
+    height: 120px;
+  }
+}
+@media (max-width: 500px) {
+  .header-container {
+    height: auto;
+    margin-bottom: 8%;
+  }
+}
+@media (max-width: 768px) {
+  .header-container h1 {
+    text-align: center;
+    margin-bottom: 2%;
+  }
+}
+@media (max-width: 500px) {
+  .header-container h1 {
+    display: none;
+  }
 }
 .logo-container {
   display: flex;
@@ -165,7 +200,7 @@ p {
     justify-content: center;
   }
 }
-@media (max-width: 762px) {
+@media (max-width: 768px) {
   .logo-container {
     display: flex;
     flex-flow: row;
@@ -177,7 +212,7 @@ p {
 .logo-container .logo {
   margin: 0 2%;
 }
-@media (max-width: 762px) {
+@media (max-width: 768px) {
   .logo-container .logo {
     margin: 2% 2% 4%;
   }
@@ -187,71 +222,23 @@ p {
     width: 50px;
   }
 }
-@media (max-width: 762px) {
+@media (max-width: 768px) {
   .logo-container .logo img {
     width: 30px;
   }
 }
-.header-container {
-  background-color: #F8F8F8;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  width: 100%;
-  height: 89px;
-}
-@media (max-width: 762px) {
-  .header-container {
-    height: 120px;
-  }
-}
-@media (max-width: 500px) {
-  .header-container {
-    height: auto;
-    margin-bottom: 8%;
-  }
-}
-@media (max-width: 762px) {
-  .header-container h1 {
-    text-align: center;
-    margin-bottom: 2%;
-  }
-}
-@media (max-width: 500px) {
-  .header-container h1 {
-    display: none;
-    /*width: 100%;
-      padding: 5% 0 8% 3%;
-      font-size: 3.8rem;*/
-  }
-}
-.header-container nav {
+nav {
   width: 40%;
   text-align: right;
 }
-.header-container nav a {
-  padding: 0 3%;
-  text-decoration: none;
-  color: #1A051D;
-  font-size: 1.8rem;
-}
-.header-container nav a:hover {
-  color: #DBA5F5;
-}
-.header-container nav .sign-up {
-  border: 3px solid #B66CFF;
-  border-radius: 4px;
-}
-@media (max-width: 762px) {
-  .header-container nav {
+@media (max-width: 768px) {
+  nav {
     width: 100%;
     text-align: center;
   }
 }
 @media (max-width: 500px) {
-  .header-container nav {
+  nav {
     width: 100%;
     display: flex;
     flex-flow: column;
@@ -259,20 +246,39 @@ p {
     align-items: center;
     align-content: center;
   }
-  .header-container nav a:nth-child(3) {
+}
+nav a {
+  padding: 0 3%;
+  text-decoration: none;
+  color: #1A051D;
+}
+nav a:hover {
+  color: #DBA5F5;
+}
+@media (max-width: 768px) {
+  nav a {
+    font-size: 1.8rem;
+  }
+}
+@media (max-width: 500px) {
+  nav a:nth-child(3) {
     order: 2;
     width: 100%;
-    color: white;
     padding: 2% 0;
+    color: white;
     margin-bottom: 2%;
     text-align: center;
   }
-  .header-container nav a:nth-child(4) {
+  nav a:nth-child(4) {
     order: 1;
     font-size: 2rem;
     margin: 3%;
     padding: 2% 5%;
   }
+}
+nav .sign-up {
+  border: 3px solid #B66CFF;
+  border-radius: 4px;
 }
 @media (max-width: 500px) {
   .home-link,
@@ -282,6 +288,11 @@ p {
   .sign-in {
     background-color: #B66CFF;
   }
+}
+footer {
+  right: 0;
+  bottom: 0;
+  left: 0;
 }
 footer,
 .footer-container {
@@ -343,24 +354,21 @@ footer,
     text-align: center;
   }
 }
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
 .home {
   width: 100%;
 }
 @media (max-width: 500px) {
   .home {
     margin-bottom: 10%;
-  }
-}
-.home header {
-  margin-left: 9%;
-  padding-bottom: 2%;
-  font-family: Arial, Helvetica, sans-serif;
-}
-@media (max-width: 500px) {
-  .home header {
-    text-align: center;
-    margin: 0;
-    margin-bottom: 5%;
   }
 }
 .home .main-container {
@@ -397,13 +405,18 @@ footer,
   align-items: center;
   align-content: center;
 }
-@media (max-width: 762px) {
+@media (max-width: 768px) {
   .main-link {
     display: flex;
     flex-flow: row;
     justify-content: center;
     align-items: center;
     align-content: center;
+  }
+}
+@media (max-width: 1025px) {
+  .main-link {
+    margin-bottom: 16%;
   }
 }
 .main-link a {
