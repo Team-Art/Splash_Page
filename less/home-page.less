@@ -15,6 +15,18 @@ html {
         margin-bottom: 10%;
     }
 
+    #about{
+        .flex(row wrap, center, center,center);
+        margin: 8% 10% 16% 10%;
+        @media @tablet{
+            margin: 0;
+        }
+
+        @media @mobile{
+            margin: 20% 10% 16% 10%;
+        }
+    }
+
     .main-container {
         display: flex;
         flex-wrap: wrap;
@@ -44,6 +56,7 @@ html {
     }
 }
 
+
 .main-link{
     width: 100%;
     .flex(row, flex-end, center, center);
@@ -65,4 +78,24 @@ html {
           color: @hover;
         }
       }
+}
+
+#about{
+    display: none;
+}
+
+#about{
+    .about-img{
+        text-align: center;
+        border: 2px gray solid;
+        margin: 5%;
+        @media @tablet{
+            border: 1px gray solid;
+            margin: 1% 2% 3% 0;
+        }
+        img{
+            height: 259px;
+        }
+      
+    }
 }
