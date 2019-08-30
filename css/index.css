@@ -265,7 +265,7 @@ nav a:hover {
     order: 2;
     width: 100%;
     padding: 2% 0;
-    color: white;
+    color: black;
     margin-bottom: 2%;
     text-align: center;
   }
@@ -284,9 +284,6 @@ nav .sign-up {
   .home-link,
   .browse {
     display: none;
-  }
-  .sign-in {
-    background-color: #B66CFF;
   }
 }
 footer {
@@ -371,6 +368,24 @@ html {
     margin-bottom: 10%;
   }
 }
+.home #about {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: 8% 10% 16% 10%;
+}
+@media (max-width: 768px) {
+  .home #about {
+    margin: 0;
+  }
+}
+@media (max-width: 500px) {
+  .home #about {
+    margin: 20% 10% 16% 10%;
+  }
+}
 .home .main-container {
   display: flex;
   flex-wrap: wrap;
@@ -414,7 +429,7 @@ html {
     align-content: center;
   }
 }
-@media (max-width: 1025px) {
+@media (max-width: 1024px) {
   .main-link {
     margin-bottom: 16%;
   }
@@ -430,4 +445,21 @@ html {
 }
 .main-link a:hover {
   color: #DBA5F5;
+}
+#about {
+  display: none;
+}
+#about .about-img {
+  text-align: center;
+  border: 2px gray solid;
+  margin: 5%;
+}
+@media (max-width: 768px) {
+  #about .about-img {
+    border: 1px gray solid;
+    margin: 1% 2% 3% 0;
+  }
+}
+#about .about-img img {
+  height: 259px;
 }
