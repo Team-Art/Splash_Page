@@ -12,6 +12,11 @@ html {
 .home {
     width: 100%;
     @media @mobile {
+        h2 {
+            font-size: 3em;
+            width: 100%;
+            margin: 20px 30%;
+        }
         margin-bottom: 10%;
     }
 
@@ -37,6 +42,7 @@ html {
         .img-content {
          padding: 1%;
          padding-bottom: 4%;
+         margin: 0 auto;
 
             img {
                 width: 294px;
@@ -47,10 +53,10 @@ html {
                     height: 230px;
                 }
             }
-            p{
+            p {
                 text-align: center;
                 font-family: Arial, Helvetica, sans-serif;
-                margin-top: 5px;
+                margin-top: 10px;
             }
         }
     }
@@ -65,7 +71,7 @@ html {
     }
 
     @media @large-tablet{
-        margin-bottom: 16%;
+        // margin-bottom: 16%;
     }
     a{
         .link-border();
@@ -89,7 +95,7 @@ html {
         text-align: center;
         border: 2px gray solid;
         margin: 5%;
-        @media @tablet{
+        @media @tablet {
             border: 1px gray solid;
             margin: 1% 2% 3% 0;
         }
