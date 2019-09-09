@@ -13,10 +13,12 @@ The creatives community come from all over the world, all walks of life & are br
 <h2>Our Team</h2>
 
 <h3>UI/UX Designer<h3>
+
+[<h4>Katharine Holderfield</h4>](https://www.linkedin.com/in/katharineashley/)
  
 <img src="img/ash.png" width="200px" alt='Ashes Holderfeild'/>
 
-[<h4>Katharine Holderfield</h4>](https://www.linkedin.com/in/katharineashley/)
+
 
 <h3>UI Developer<h3>
 <img src="img/taty.jpg" width="200px"/>
