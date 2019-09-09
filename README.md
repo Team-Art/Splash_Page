@@ -21,6 +21,9 @@ The creatives community come from all over the world, all walks of life & are br
 
 
 <h3>UI Developer<h3>
-<img src="img/taty.jpg" width="200px"/>
 
 [<h4>Tatyana Novell</h4>](https://www.linkedin.com/in/tatyana-novell-b0168bb1/)
+ 
+<img src="img/taty.jpg" width="200px" alt='Tatyana Novell' />
+
+
