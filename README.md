@@ -16,4 +16,7 @@ The creatives community come from all over the world, all walks of life & are br
 ![Katharine Holderfield](img/ash.png)
 
 [<h4>Katharine Holderfield</h4>](https://www.linkedin.com/in/katharineashley/)
- 
+
+<img src="img/taty.jpg" width="200px"/>
+
+[<h4>Tatyana Novell</h4>](https://www.linkedin.com/in/tatyana-novell-b0168bb1/)
