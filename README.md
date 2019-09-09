@@ -1,4 +1,4 @@
-## ART PORTFOLIO ##
+### ART PORTFOLIO ###
 - - - - 
 ## Mission Statement  ##
 Our mission is to help Artists showcase their art no matter what medium. 
