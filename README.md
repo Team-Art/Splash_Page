@@ -12,11 +12,13 @@ The creatives community come from all over the world, all walks of life & are br
 
 <h2>Our Team</h2>
 
-
-![Katharine Holderfield](img/ash.png)
+<h3>UI/UX Designer<h3>
+ 
+<img src="img/ash.png" width="200px" alt='Ashes Holderfeild'/>
 
 [<h4>Katharine Holderfield</h4>](https://www.linkedin.com/in/katharineashley/)
 
+<h3>UI/UX Designer<h3>
 <img src="img/taty.jpg" width="200px"/>
 
 [<h4>Tatyana Novell</h4>](https://www.linkedin.com/in/tatyana-novell-b0168bb1/)
