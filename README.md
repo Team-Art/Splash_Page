@@ -12,5 +12,5 @@ The creatives community come from all over the world, all walks of life & are br
 
 
 <h2>The Team</h2>
- ![Katharine Holderfield](img/ash.png) 
- UI/UX Katharine Holderfield: https://www.linkedin.com/in/katharineashley/
+![Katharine Holderfield](img/ash.png) 
+ 
