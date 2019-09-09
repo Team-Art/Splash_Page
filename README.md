@@ -13,4 +13,4 @@ The creatives community come from all over the world, all walks of life & are br
 
 <h2>The Team</h2>
 ===
-UI/UX - [Ash Holderfield](@Ashesbashes)
+UI/UX - [Ash Holderfield](https://github.com/orgs/Team-Art/people/Ashesbashes)
