@@ -16,7 +16,7 @@ The creatives community come from all over the world, all walks of life & are br
 
 [<h4>Katharine Holderfield</h4>](https://www.linkedin.com/in/katharineashley/)
  
-<img src="img/ash.png" width="200px" alt='Ashes Holderfeild'/>
+<img src="img/ash.png" height="200px" alt='Ashes Holderfeild'/>
 
 
 
@@ -24,6 +24,11 @@ The creatives community come from all over the world, all walks of life & are br
 
 [<h4>Tatyana Novell</h4>](https://www.linkedin.com/in/tatyana-novell-b0168bb1/)
  
-<img src="img/taty.jpg" width="200px" alt='Tatyana Novell' />
+<img src="img/taty.jpg" width="150px" alt='Tatyana Novell' />
 
 
+<h3>UI Developer<h3>
+
+[<h4>Shafi Masoumi</h4>](https://www.linkedin.com/in/shafi-masoumi-ab099733/)
+ 
+<img src="img/shafi.png" width="150px" alt='Tatyana Novell' />
