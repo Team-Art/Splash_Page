@@ -222,14 +222,14 @@ a {
     margin: 2% 2% 4%;
   }
 }
-@media (max-width: 500px) {
-  .logo-container .logo img {
-    width: 50px;
-  }
-}
 @media (max-width: 768px) {
   .logo-container .logo img {
     width: 30px;
+  }
+}
+@media (max-width: 500px) {
+  .logo-container .logo img {
+    width: 50px;
   }
 }
 nav {
@@ -244,52 +244,40 @@ nav {
 }
 @media (max-width: 500px) {
   nav {
-    width: 100%;
     display: flex;
-    flex-flow: column;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
+    flex-direction: row-reverse;
   }
-}
-nav a {
-  padding: 0 3%;
-  text-decoration: none;
-  color: #1A051D;
-}
-nav a:hover {
-  color: #DBA5F5;
-}
-@media (max-width: 768px) {
-  nav a {
-    font-size: 1.8rem;
-  }
-}
-@media (max-width: 500px) {
-  nav a:nth-child(3) {
-    order: 2;
-    width: 100%;
-    padding: 2% 0;
-    color: black;
-    margin-bottom: 2%;
-    text-align: center;
-  }
-  nav a:nth-child(4) {
-    order: 1;
+  nav:nth-child(4) {
     font-size: 2rem;
     margin: 3%;
     padding: 2% 5%;
   }
-}
-nav .sign-up {
-  border: 3px solid #B66CFF;
-  border-radius: 4px;
-}
-@media (max-width: 500px) {
-  .home-link,
-  .browse {
+  nav .home-link,
+  nav .browse {
     display: none;
   }
+  nav a {
+    width: 100%;
+    justify-items: auto;
+    padding: 0 2%;
+    text-decoration: none;
+    color: #1A051D;
+    font-size: 1.8rem;
+  }
+  nav .sign-up {
+    padding: 5%;
+    border: 3px solid #B66CFF;
+    border-radius: 4px;
+  }
+  nav .sign-in {
+    padding: 5%;
+  }
+  nav .about-link {
+    padding: 5%;
+  }
+}
+a:hover {
+  color: #DBA5F5;
 }
 footer {
   display: flex;

@@ -21,7 +21,7 @@
     }
   }
 }
-  .logo-container{
+  .logo-container {
     .flex(row, left, center, center);
       width: 55%;
       @media @mobile{
@@ -31,74 +31,63 @@
       @media @tablet{
         .flex(row, center, center, center);
       }
-      .logo{
+      .logo {
         margin: 0 2%;
         @media @tablet{
           margin: 2% 2% 4%;
         }
         img{
-          @media @mobile{
-            width: 50px;
-          }
           @media @tablet{
             width: 30px
+          }
+          @media @mobile{
+            width: 50px;
           }
         }
       }
   }
 
-  nav{
+  nav {
     width: 40%;
     text-align: right;
   
-
-    @media @tablet{
+    @media @tablet {
       width: 100%;
       text-align: center;
     }
     @media @mobile {
-      width: 100%;
-      .flex(column, center, center, center);
+      display: flex;
+      flex-direction: row-reverse;
+      &:nth-child(4){
+        font-size: 2rem;
+        margin: 3%;
+        padding: 2% 5%;
+      }
+      .home-link, .browse {
+        display: none;
+      }
+       a {
+         width: 100%;
+         justify-items: auto;
+         padding: 0 2%;
+         text-decoration: none;
+         color: @main-color;
+         font-size: 1.8rem;
+       }
+       .sign-up {
+         padding: 5%;
+         .link-border()
+       }
+       .sign-in {
+         padding: 5%;
+       }
+       .about-link {
+         padding: 5%;
+       }
     }
-
-    a{
-      padding: 0 3%;
-      text-decoration: none;
-      color: @main-color;
-      &:hover{
-        color: @hover;
-      }
-      
-      @media @tablet {
-        font-size: 1.8rem;
-      }
-
-      @media @mobile{
-
-        &:nth-child(3){
-          order: 2;
-          width: 100%;
-          padding: 2% 0;
-          color: black;
-          margin-bottom: 2%;
-          text-align: center;
-        }
-        &:nth-child(4){
-          order: 1;
-          font-size: 2rem;
-          margin: 3%;
-          padding: 2% 5%;
-        }
-      }
-    }
-
-    .sign-up{
-       .link-border();
-      }
-    }
-
-@media @mobile{
-   .home-link, .browse {
-    display: none;
-  }
 }
+
+a:hover {
+  color: @hover;
+}
+
