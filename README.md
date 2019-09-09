@@ -31,4 +31,10 @@ The creatives community come from all over the world, all walks of life & are br
 
 [<h4>Shafi Masoumi</h4>](https://www.linkedin.com/in/shafi-masoumi-ab099733/)
  
-<img src="img/shafi.png" width="150px" alt='Tatyana Novell' />
+<img src="img/shafi.png" width="150px" alt='Shafi Masoumi' />
+
+<h3>Project Lead<h3>
+
+[<h4>Javier Alvarez</h4>](https://www.linkedin.com/in/javier-alvarez-492734102/)
+ 
+<img src="img/javier.png" width="150px" alt='Javier Alvarez' />
