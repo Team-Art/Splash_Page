@@ -1,4 +1,4 @@
-![Art Portfolio Logo](img/small-logo.png)
+<img src="img/small-logo.png"
 - - - - 
 ## ART PORTFOLIO  ##
 Our mission is to help Artists showcase their art no matter what medium. 
