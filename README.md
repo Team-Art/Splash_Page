@@ -1,4 +1,4 @@
-![art_brush_logo](img/small-logo.png); <em>ART PORTFOLIO</em>
+![art_brush_logo](img/small-logo.png) <h1>ART PORTFOLIO</h1>
 - - - - 
 <h2>Mission Statement</h2>
 Our mission is to help Artists showcase their art no matter what medium. 
