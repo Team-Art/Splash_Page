@@ -10,3 +10,7 @@ Creatives often don’t get to take their art and make a living from it. They re
  
 The creatives community come from all over the world, all walks of life & are brought together with one purpose. Sharing & discovering artist & art.
 
+
+<h2>The Team</h2>
+===
+UI/UX - [Ash Holderfield](@Ashesbashes)
