@@ -18,7 +18,7 @@ The creatives community come from all over the world, all walks of life & are br
 
 [<h4>Katharine Holderfield</h4>](https://www.linkedin.com/in/katharineashley/)
 
-<h3>UI/UX Designer<h3>
+<h3>UI Developer<h3>
 <img src="img/taty.jpg" width="200px"/>
 
 [<h4>Tatyana Novell</h4>](https://www.linkedin.com/in/tatyana-novell-b0168bb1/)
