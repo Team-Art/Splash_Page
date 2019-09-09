@@ -1,4 +1,4 @@
-<img src="img/small-logo.png" width="200">
+<img src="img/small-logo.png" > <h1>ART PORTFOLIO<h1>
 - - - - 
 ## ART PORTFOLIO  ##
 Our mission is to help Artists showcase their art no matter what medium. 
