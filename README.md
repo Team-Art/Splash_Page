@@ -1,4 +1,4 @@
-<img src="img/small-logo.png" alt="art_brush_logo" > <h1 style=`display: inline`>ART PORTFOLIO</h1>
+![art_brush_logo](img/small-logo.png) #ART PORTFOLIO#
 - - - - 
 <h2>Mission Statement</h2>
 Our mission is to help Artists showcase their art no matter what medium. 
