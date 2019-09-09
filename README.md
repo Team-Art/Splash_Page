@@ -1,6 +1,6 @@
-![](img/small-logo.png) ### ART PORTFOLIO ###
+![Art Portfolio Logo](img/small-logo.png)
 - - - - 
-## Mission Statement  ##
+## ART PORTFOLIO  ##
 Our mission is to help Artists showcase their art no matter what medium. 
 Inspire, Showcase, Discover & Connect with Artists worldwide.
 
