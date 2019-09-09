@@ -13,5 +13,6 @@ The creatives community come from all over the world, all walks of life & are br
 <h2>Our Team</h2>
 
 
-![Katharine Holderfield](img/ash.png) 
+![Katharine Holderfield](img/ash.png)
+[](https://www.linkedin.com/in/katharineashley/)
  
